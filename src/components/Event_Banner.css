@@ -1,0 +1,11 @@
+.banner-bg{
+    height: 500px;
+    background: url(/public/images/event_header.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner-text{
+    margin: 20vh;
+    color: aliceblue;
+}
