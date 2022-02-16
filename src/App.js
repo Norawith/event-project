@@ -6,6 +6,7 @@ import Event_Story from './components/page/Story/Event_Story';
 import Page404 from './Page404';
 import Register from './components/page/Form/Register';
 import Login from './Login';
+import Event_Questions from './components/page/Questions/Event_Questions';
 
 import {BrowserRouter, BrowserRouter as Switch, Route, Routes} from 'react-router-dom'
 import Search_Register from './components/page/Form/Search_Register';
@@ -23,6 +24,8 @@ function App() {
 
             <Route path="/register" element={<Search_Register/>}></Route>
 
+
+            <Route path="/questions" element={<Event_Questions />}></Route>
             <Route path="/story" element={<Event_Story />}></Route>
 
             <Route path="/Login" element={<Login />}></Route>

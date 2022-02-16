@@ -23,18 +23,22 @@ function Event_Navber() {
                             </Nav.Link>
 
                             <NavDropdown title="กิจกรรม" id="Event-dropdown" href="#" target="_blank" style={{padding: 7}}>
-                                <NavDropdown.Item href="#">กิจกรรมตอบคำถาม</NavDropdown.Item>
+
+                                <NavDropdown.Item href="questions">กิจกรรมตอบคำถาม</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 
                                 <NavDropdown.Item href="#">จิ๊กซอร์</NavDropdown.Item>
                                 <NavDropdown.Divider />
 
+                                <NavDropdown.Item href="/story">เรื่องเล่า</NavDropdown.Item>
                                 
-                                <NavDropdown.Item>
+
+                                
+                                {/* <NavDropdown.Item href="/story">
                                     <NavLink to="/story" className="text-decoration-none text-dark">
                                         เรื่องเล่า
                                     </NavLink>
-                                </NavDropdown.Item>
+                                </NavDropdown.Item> */}
                                 
                                 
                                 
