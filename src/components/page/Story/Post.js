@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import propTypes from 'prop-types';
+import IconLove from './IconLove';
 
 function Post({ id, title, deletePost }){
     return (
@@ -7,6 +8,7 @@ function Post({ id, title, deletePost }){
             <button className='Post__delete' onClick={() => deletePost(id)}>X</button>
             <div className='Post__title'>{title}</div>
             <img className='Post__image' src={`https://source.unsplash.com/random?sig=${id}`}/>
+            <IconLove />
         </div>
     )
 }

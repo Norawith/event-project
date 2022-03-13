@@ -75,6 +75,7 @@
   } 
   
   .button-questions {
+    width: 50%;
     border-radius: 15px;
     padding: 5px;
     margin-top: 10px;
